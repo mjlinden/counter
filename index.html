@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>counter</title>
 </head>
 <body>
-$END$
+    <h1>Timer</h1>
+
+    <p id="count" style="font-size:40px;">0</p>
+
+    <h3>instellen</h3>
+    <button onclick="increaseCount()">+</button>
+    <button onclick="decreaseCount()">-</button>
+    <button onclick="resetCount()">Reset</button>
+    <button onclick="saveCount()">Save</button>
+    <button onclick="loadCount()">Load</button>
+
+    <h3>presets</h3>
+    <button onclick="setEi()">ei</button>
+    <button onclick="setPizza()">pizza</button>
+    <button onclick="setGroente()">groente</button>
+
+    <h3>starten en stoppen</h3>
+    <button onclick="startCountdown()">Start</button>
+    <button onclick="stopCountdown()">Stop</button>
+
+    <script type="application/javascript" src="index.js"></script>
+
+
 </body>
 </html>
